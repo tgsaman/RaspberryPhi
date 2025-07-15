@@ -1,0 +1,33 @@
+# Model weights and binaries
+*.gguf
+*.bin
+*.pth
+/models/
+
+# Token and auth data (if any)
+*.token
+*.key
+*.json
+~/.cache/
+.cache/
+
+# User-specific runtime or dev files
+*.log
+*.csv
+*.db
+*.wav
+*.mp4
+*.heic
+__pycache__/
+.venv/
+.env
+*.swp
+*.bak
+*.csv
+.DS_Store
+*.jsonl
+
+# Llama.cpp build artifacts
+*.o
+*.a
+/build/
